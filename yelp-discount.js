@@ -1,4 +1,4 @@
-var reURL = new RegExp("^https?:\/\/(www.)?yelp.com\/", "i");
+var reURL = new RegExp("^https?:\/\/(www.)?yelp.com/biz/wise-guys-moving-opelika\/", "i");
 
 if (document.referrer.length && reURL.test(document.referrer)) {
       window.onload = function prefill_coupon() {
